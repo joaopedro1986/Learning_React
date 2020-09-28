@@ -4,6 +4,8 @@ import React from 'react'
 
 import First from './components/First'
 import Parameter from './components/Parameter'
+import Fragement from './components/Fragement'
+
 
 
 ReactDOM.render(
@@ -15,6 +17,7 @@ ReactDOM.render(
         <Parameter title = 'Game' 
         subtitle = 'Trivial' 
         rate ={3.5} />
+        <Fragement />
     </div>,
     document.getElementById('root')
 )
